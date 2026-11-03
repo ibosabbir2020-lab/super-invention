@@ -26,8 +26,8 @@ except Exception:
     pass
 
 # ───────────────────── config ─────────────────────
-BOT_TOKEN    = os.getenv("BOT_TOKEN", "8828944067:AAE0I4f8cf4VdCNd5WqzB5GnP5A2NT-ysvU")
-ADMIN_IDS    = [int(x) for x in os.getenv("ADMIN_IDS", "8712347172").split(",") if x.strip()]
+BOT_TOKEN    = os.getenv("BOT_TOKEN", "8092023529:AAEyuY9UPK-hYPkraXSHPtc2kLRwBLJtt1U")
+ADMIN_IDS    = [int(x) for x in os.getenv("ADMIN_IDS", "7240767926").split(",") if x.strip()]
 PROXY_FILE   = os.getenv("PROXY_FILE", "proxies.txt")
 HITS_FILE    = os.getenv("HITS_FILE",  "hits.txt")
 THREADS      = int(os.getenv("THREADS", "15"))
