@@ -12,4 +12,4 @@ ENV WORKERS=1
 
 EXPOSE 8080
 
-CMD ["python", "api.py"]
+CMD ["python", "bot.py"]
